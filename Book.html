@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bookstyle.css">
+    <title>Book Now</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Pet Veterinary Care               </div>
+        <div class="menu">
+            <div class="navbar"></div>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Our Staff</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Book.html">Book Now</a></li>
+            </ul>
+        </div>
+   </header>
+
+   <div class="book-parallax">
+    
+    <div class="booking-title">
+     Book an Appointment
+    </div>
+   </div>
+
+   <section class="book-form">
+
+    <h2>Schedule Your Visit</h2>
+
+    <p>Fill out the form below to schedule an appointment for your pet. We will contact you to confirm the details.
+    </p>
+    <form id="form">
+        <fieldset>
+            <legend>Owner's Information</legend>
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone"required>
+        </fieldset>
+        <fieldset>
+            <legend>Pet's Information</legend>
+            <label for="petName">Pet Name</label>
+            <input type="text" name="petName" id="petName" required>
+            <label for="petType">Type of Pet</label>
+            <select name="petType" id="petType">
+                <option value="">-- Select Pet Type --</option>
+                <option value="dog"> Dog </option>
+                <option value="cat"> Cat </option>
+                <option value="bird"> Bird </option>
+                <option value="other"> Other </option>
+            </select>
+            <label for="service">Services</label>
+            <select name="service" id="service">
+                <option value="">-- Select Service --</option>
+                <option value="checkup"> Check up</option>
+                <option value="surgery">Surgery</option>
+                <option value="dental">Dental</option>
+            </select>
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date" required>
+            <label for="time">Preferred Time</label>
+            <input type="time" name="time" id="time" required>
+           
+                    </fieldset>
+                    <button type="submit">Submit Booking</button>
+    </form>
+
+
+   </section>
+   <footer>
+    <div class="footercontent">
+        <div class="footerlogo">
+            Pet Veterinary Care  
+             
+        </div>
+        <div class="footercontact">
+            <h3>Contact Us</h3>
+            <p>195 Fantail Street, Cairnsville, Queensland</p>
+            <p>Email: <a href="mailto:cvc@petvetcare.com.au">cvc@cairnsvillevetcare.com.au</a></p>
+            <p>Phone: <a href="tel:+0713275599">07 1327 5599</a></p>
+        </div>
+        <div class="footerbottom">
+            <p>© 2024 Pet Veterinary Care. All Rights Reserved.</p>
+        </div>
+    </div>
+    
+            </footer>
+</body>
+
